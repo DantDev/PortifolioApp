@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,body{
+  background-color: #ACBED8;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  padding-block: 10px;
+}
+
+.site-logo{
+  color: black;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+header a {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+header a:hover {
+  color: #161616;
+  text-decoration: underline;
+}
+
+
+.home-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #161616;
+  margin: 30px;
+  margin-top: 120px;
+  height: 600px;
+  padding-bottom: 270px;
+}
+
+.home-hero-img{
+  max-width: 20%;
+  border-radius: 300px;
+}
+
+.home-title{
+  color: #E8EBF7;
+  font-size: 40px;
+}
+
+.social-media-icons a{
+  text-decoration: none;
+}
+
+.instagram{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background: #272727;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.instagram:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.social-icon{
+  max-width: 7%;
+  padding: 1px;
+  background: white;
+  border-radius: 50px;
+  margin-left: 80px;
+}
+
+.social-title{
+  font-size: 30px;
+  font-family: "inter";
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+
+.home-text{
+  text-align: center;
+  padding: 40px 250px;
+  color: white;
+  font-size: 18px;
+}
