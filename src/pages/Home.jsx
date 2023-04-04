@@ -10,6 +10,7 @@ export default function Home() {
         <div className="home-container">
             <img src={bgImg} className="home-hero-img" />
             <h1 className="home-title">Pedro Henrique Calixto Dias</h1>
+            <p className="home-text">I am a self taught frontend developer, who has a little of background on desing, i have worked with marketing using Photoshop and also i have some experience with 3D using Blender.I am always looking for learning new things , trying to self improve on my skills.</p>
             <div className="social-media-icons">
                 <a href="https://www.instagram.com/p3drr0" target="_blank">
                     <div className="instagram">
@@ -30,7 +31,6 @@ export default function Home() {
                     </div>
                 </a>
             </div>
-            <p className="home-text">I am a self taught frontend developer, who has a little of background on desing, i have worked with marketing using Photoshop and also i have some experience with 3D using Blender.I am always looking for learning new things , trying to self improve on my skills.</p>
         </div>
     )
 }
